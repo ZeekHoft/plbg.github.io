@@ -1,0 +1,456 @@
+/* deleting the standard margin and padding */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Main styling */
+html,body
+{
+ font-family: 'Times New Roman', Times, serif;
+ line-height: 0.9cm;
+}
+
+a
+{
+    color: rgb(9, 9, 133);
+    text-decoration: none;
+}
+
+
+p
+{
+    margin: 10px 0;
+}
+
+.clr
+{
+    clear: both;
+}
+
+
+.color-white
+{
+    color: white;
+}
+
+
+.container
+{
+    
+    margin: auto;
+    max-width: 100%;
+    max-height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(253, 15, 15, 0.3), rgb(255, 255, 0, 0.3) );
+
+}
+
+
+.container2
+{
+    
+    margin: auto;
+    max-width: 100%;
+    max-height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#thislogo
+{
+
+    background: url(../grace_website2/.jpg)no-repeat center center/cover;
+
+
+}
+
+nav .logo
+{
+    width: 10000px;
+    margin-left: 40px;
+
+}
+
+
+
+
+.gradiant
+{
+    background-image: linear-gradient(rgba(253, 15, 15, 0.3), rgb(255, 255, 0, 0.3) );
+    position: relative;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(253, 15, 15, 0.3), rgb(255, 255, 0, 0.3) );
+    position: relative;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+
+.content
+{
+    text-align: center;
+}
+.content h1
+{
+    font-size: 340px;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.content h1:hover
+{
+    -webkit-text-stroke: 2px gold;
+    color: transparent;
+    
+}
+
+
+#video
+{
+    background: url(../grace_website2/relaxed_work_meeting\ \(1080p\).mp4);
+
+}
+.back-video
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+@media (min-aspect-ratio: 16/9)
+{
+    .back-video
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9)
+{
+    .back-video
+    {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* THE MARKET THING */
+
+#inforamtion .information-content
+{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-right: 100px;   
+    font-size: 40px;
+    
+    
+}
+#inforamtion .information-content i
+{
+    padding-left: 1000px;
+    padding-top: 100px;
+}
+
+#inforamtion .information-content h3
+{
+    display: block;
+    font-size: 200px;
+    padding-left: 1000px;
+}
+
+
+
+
+
+#inforamtion 
+{
+    background: url(../grace_website2/sign2.jpg)no-repeat center center/cover;
+   
+   
+}
+
+
+
+#inforamtion .information-content h2
+{
+
+    border: double;
+    padding: 60px 0px;
+    margin-left: 2000px;
+    margin-right: 2000px;
+    padding: 100px 50px; 
+    font-size: 200px;
+    color: white;
+    text-align: center;
+    transition: 0.5s;   
+}
+
+
+#inforamtion .information-content h2:hover
+{
+    -webkit-text-stroke: 2px gold;
+    color: transparent;
+}
+
+#inforamtion .information-content h3
+{
+    position: relative;
+    top: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.industries
+{
+    background-image: linear-gradient(rgba(253, 15, 15, 0.3), rgba(253, 15, 15, 0.3) );
+
+
+    padding-top: 100px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.industries h2
+{
+    color: white;
+    text-align: center;
+    font-size: 180px;
+    padding: 100px 0px;
+    margin-left: 2500px;
+    margin-right: 2500px; 
+    border: double;
+    transition: 0.5s;   
+
+}
+
+.industries h2:hover
+{
+    -webkit-text-stroke: 2px gold;
+    color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper
+{
+    
+    border-radius: 100%;
+    width: 40%;
+    height: fit-content;
+    border: 6px rgb(167, 39, 39) solid;
+
+}
+
+.swiper h3
+{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.swiper-slide img
+{
+    width: 100%;
+    
+}
+
+
+.swiper-slide
+
+{
+    background: url(../grace_website2/sign2.jpg)no-repeat center center/cover;
+    background: url(../grace_website2/CS5.jpg)no-repeat center center/cover;
+    background: url(../grace_website2/MED6.jpg)no-repeat center center/cover;
+    background: url(../grace_website2/clean5.jpg)no-repeat center center/cover;
+    background: url(../grace_website2/Manifacuttre2.jpg)no-repeat center center/cover;
+    background: url(../grace_website2/merchant2.jpg)no-repeat center center/cover;
+    background: url(../grace_website2/services3.jpg)no-repeat center center/cover;
+    background: url(../grace_website2/healthcare2.jpg)no-repeat center center/cover;
+    background: url(../grace_website2/consultation3.jpg)no-repeat center center/cover;
+    background: url(../grace_website2/logistic2.jpg)no-repeat center center/cover;
+    background-image: linear-gradient(rgba(253, 15, 15, 0.3), rgba(253, 15, 15, 0.3) );
+
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next
+{
+    color: rgb(167, 39, 39); 
+    background-color: gold;
+    padding: 50px;
+    border-radius: 50px;
+
+}
+
+.swiper .swiper-pagination-bullet-active
+{
+    color: rgb(167, 39, 39);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Contact .contact-information
+{
+    padding-top: 500px;
+    padding-bottom: 500px;
+    padding-right: 100px;   
+    font-size: 40px;
+    
+    
+}
+
+#Contact .contact-information i
+{
+    padding-left: 1000px;
+    padding-top: 10px;
+}
+
+#Contact .contact-information h3
+{
+    display: block;
+    font-size: 200px;
+    padding-left: 1000px;
+}
+
+
+#Contact .contact-information .resize h3
+{
+    font: 1000px;
+}
+
+
+
+#Contact 
+{
+    background: url(../grace_website2/contacts.jpg)no-repeat center center/cover;
+}
+
+#Contact .contact-information h2
+{
+    border: double;
+    padding: 60px 0px;
+    margin-left: 2000px;
+    margin-right: 2000px; 
+    padding: 100px 50px;
+    font-size: 250px;
+    color: white;
+    text-align: center;
+    transition: 0.5s;   
+}
+
+#Contact .contact-information h2:hover
+{
+    -webkit-text-stroke: 2px gold;
+    color: transparent;
+}
+
+#Contact .contact-information h3
+{
+    position: relative;
+    top: 200px;
+
+}
+#Contact .footer p
+{
+
+    position: relative;
+    top: 600px;
+    text-align: center;
+    font-size: 80px;
+    
+    
+
+}
